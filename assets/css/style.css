@@ -1,12 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-header {
+/*--------------------------------------------Colors*/
 
-margin: 0;
+.bg-color-name-title {
+    background-color: #eb0c0c;
 }
 
+/*--------------------------------------------Heading*/
+
+ 
+.heading {
+    margin-left: 50px;
+}
+
+header {
+margin: 0;
+} 
+
 .logo {
-    background: url("../images/un2050_logo.png");
+    background: url("../images/mmm2050.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,4 +26,21 @@ margin: 0;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
 }
