@@ -6,7 +6,6 @@
     background-color: #eb0c0c;
 }
 
- 
 
 .ui-menu-color-home {
     background-color: #066816;
@@ -73,19 +72,45 @@ margin: 0;
     font-size: 0;
 }
 
+#nav {
+    margin: 0; /* Align the image so that it is on the edge of the **Nav Menu**. */
+}
+
+
+
 #nav li {
     font-size: 14px;
     padding: 0;    
 }
 
-/* Change link text color */
-#nav li a {
-    color: #fff; /* Change to your preferred color */
-    text-decoration: none; /* Remove underline */
+
+.menuitem {
+    height: 120px;
+    text-align: center; /* Centers the icon (optional) */
+    padding: 0; 
 }
 
-/* Change color on hover */
-#nav li a:hover {
-    color: blue; /* Change color when hovering */
-    text-decoration: none; /* Ensure no underline on hover */
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px; /* Adds space above */
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;  /* Moves the icon to its own line */
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
