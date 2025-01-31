@@ -6,16 +6,35 @@
     background-color: #eb0c0c;
 }
 
+ 
+
+.ui-menu-color-home {
+    background-color: #066816;
+}
+
+.ui-menu-color-resume {
+    background-color: #000;
+}
+
+.ui-menu-color-contact {
+    background-color: #b90808;
+}
+
+.ui-menu-color-download {
+    background-color: #FFD700;
+}
 /*--------------------------------------------Heading*/
 
  
-.heading {
-    margin-left: 50px;
-}
 
 header {
 margin: 0;
 } 
+
+.heading {
+    margin-left: 50px;
+}
+
 
 .logo {
     background: url("../images/mmm2050.jpg");
@@ -34,6 +53,7 @@ margin: 0;
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
+    font-weight:400;
 }
 
 .title {
@@ -43,4 +63,29 @@ margin: 0;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;    
+}
+
+/* Change link text color */
+#nav li a {
+    color: #fff; /* Change to your preferred color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Change color on hover */
+#nav li a:hover {
+    color: blue; /* Change color when hovering */
+    text-decoration: none; /* Ensure no underline on hover */
 }
