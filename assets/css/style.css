@@ -6,6 +6,11 @@
     background-color: #eb0c0c;
 }
 
+.bg-color-work-history {
+    background-color: #a09393;
+}
+
+
 .bg-color-three-reasons {
     background-color: #fff;
 }
@@ -297,6 +302,7 @@ footer {
     margin: 40px 20px;
 }
 
+/* MMM */
 
 .custom-progress-bar {
     background-color: #000000; /* Custom orange color */
@@ -304,4 +310,53 @@ footer {
 
 .custom-progress-bar-red {
     background-color: #b90808; /* Custom orange color rather than bg-danger */
+}
+
+
+/* ----------------------------------------Work History */
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
 }
