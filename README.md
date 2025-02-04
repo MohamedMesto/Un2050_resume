@@ -1,11 +1,3 @@
-[![un2050 logo](assets/images/readme_images/un2050_logo.png)](https://mohamedmesto.github.io/Un2050_resume/)
-
-
-[![devices](assets/images/readme_images/devices_un2050.png)](https://un2050.de/)
-
-
- 
-
 # Un2050
 
 [![un2050 logo](assets/images/readme_images/un2050_logo.png)](https://mohamedmesto.github.io/Un2050_resume/)
