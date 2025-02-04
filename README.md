@@ -1,5 +1,9 @@
 [![un2050 logo](assets/images/readme_images/un2050_logo.png)](https://mohamedmesto.github.io/Un2050_resume/)
 
+
+
+
+
 Welcome,
  
 
@@ -15,11 +19,13 @@ Welcome to **UN2050**, a visionary platform designed to foster innovation, susta
 
 [Here is the link to our Website](https://un2050.com/)
 
-![devices](src/assets/images/readme_images/devices_un2050.png)
+[![devices](assets/images/readme_images/devices_un2050.png)](https://un2050.com/)
+
+ 
 
  ---
 
-![devices](src/assets/images/readme_images/devices_un2050_2.png)
+![devices](assets/images/readme_images/devices_un2050_2.png)
 
 ```  
 Un2050 app/
