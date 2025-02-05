@@ -53,6 +53,18 @@
 }
 
 /*--------------------------------------------Special paddings/margins/text */
+
+h1 a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+h1 a:hover{
+    text-decoration: none;
+    color: #FFD700;
+}
+
 h1,
 h2,
 h3,
