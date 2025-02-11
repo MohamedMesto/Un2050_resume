@@ -20,20 +20,54 @@
 }
 
 .ui-menu-color-home {
-    background-color: #066816;
-}
-
-.ui-menu-color-resume {
     background-color: #000;
 }
 
-.ui-menu-color-contact {
+.ui-menu-color-resume {
     background-color: #b90808;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-contact {
     background-color: #FFD700;
 }
+
+.ui-menu-color-download {
+    background-color: #000;
+}
+
+.ui-menu-color-github {
+    background-color: #fff;
+}
+
+.ui-menu-color-interests {
+    background-color: #066816;
+}
+
+/* Change GitHub text color */
+.ui-menu-color-github span {
+    font-weight: bold;
+    color: #b90808; /* Replace with your desired color */
+}
+
+/* Change GitHub icon color */
+.ui-menu-color-github a i {
+    font-weight: bold;
+    color: #b90808; /* Replace with your desired color */
+}
+
+/* Style for the custom GitHub icon */
+
+/* <i class="fa fa-github" aria-hidden="true">*/
+
+.github-icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+    vertical-align: middle; /* Align with text */
+    margin-top: 22px;
+    margin-right: 5px; /* Add spacing between icon and text */
+}
+
+
 
 .row-table {
     display: table;
