@@ -467,6 +467,12 @@ button[type="submit"] {
     background-color: #eb0c0c;
 }
 
+.rounded-border {
+    border-radius: 12px;
+    border: 2px solid #ccc;
+}
+
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
