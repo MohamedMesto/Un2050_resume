@@ -99,6 +99,22 @@ h1 a:hover{
     color: #FFD700;
 }
 
+
+h2 a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+
+h2 a:hover{
+    text-decoration: none;
+    color: #FFD700;
+}
+
+
+ 
+
+
 h1,
 h2,
 h3,
