@@ -486,6 +486,53 @@ button[type="submit"] {
     border: 2px solid #ccc;
 }
 
+/* ---------------------------------------- UN2050 Image Slider */
+.un2050_logo {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0.3%;
+}
+
+.un2050_logo img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.image-indicators {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.indicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #bd0d0d;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.indicator.active {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .un2050_logo img {
+    max-width: 100%;
+  }
+}
+
 
 /* ----------------------------------------Media Queries */
 
@@ -497,3 +544,6 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+
+
