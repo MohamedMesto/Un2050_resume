@@ -3,14 +3,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Image sources
   const images = [
-    "assets/images/home/un2050_logo.png",
-    "assets/images/home/logo2.png",
-    "assets/images/home/logo3.png",
-    "assets/images/home/logo4.jpg",
-    "assets/images/home/logo5.png",
-    "assets/images/home/logo6.png",
-    "assets/images/home/logo7.jpg",
-    "assets/images/home/logo8.jpg",
+    "assets/images/home/img_slider1.png",
+    "assets/images/home/img_slider2.jpg",
+    "assets/images/home/img_slider3.png",
+    "assets/images/home/img_slider4.png",
+    "assets/images/home/img_slider5.png",
+    "assets/images/home/img_slider6.png",
+    "assets/images/home/img_slider7.jpg",
+    "assets/images/home/img_slider8.jpg",
   ];
 
   let currentImageIndex = 0;
