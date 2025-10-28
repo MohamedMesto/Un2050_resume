@@ -486,6 +486,19 @@ button[type="submit"] {
     border: 2px solid #ccc;
 }
 
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+
 /* ---------------------------------------- UN2050 Image Slider */
 .un2050_logo {
   width: 100%;
@@ -534,16 +547,118 @@ button[type="submit"] {
 }
 
 
-/* ----------------------------------------Media Queries */
 
-@media(min-width: 992px) {
-    .center-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
+
+.projects-section {
+  padding: 80px 0;
+  background-color: #fafafa;
 }
 
+/* .section-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+} */
 
+.section-subheading {
+  font-size: 1.1rem;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.projects-wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  transition: all 0.3s ease-in-out;
+  min-height: 500px;
+}
+
+.project {
+  flex: 1 1 calc(33.333% - 30px);
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease;
+  padding: 20px;
+}
+
+.project:hover {
+  transform: translateY(-8px);
+}
+
+.project img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.project h3 a {
+  text-decoration: none;
+  color: #e63946;
+  font-weight: bold;
+  display: block;
+  font-size: 1.1rem;
+}
+
+.project .website-name a {
+  font-size: 0.95rem;
+  color: #333;
+  text-decoration: none;
+  font-style: italic;
+}
+
+.project .justified-text {
+  font-size: 0.9rem;
+  text-align: justify;
+  color: #555;
+  margin-top: 10px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.carousel-button {
+  background-color: #e63946;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.carousel-button:hover {
+  background-color: #c52b37;
+}
+
+@media (max-width: 992px) {
+  .project {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    flex: 1 1 100%;
+  }
+}
 
