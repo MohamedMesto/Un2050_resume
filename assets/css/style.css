@@ -23,49 +23,124 @@
     background-color: #000;
 }
 
-.ui-menu-color-resume {
-    background-color: #b90808;
-}
-
-.ui-menu-color-contact {
-    background-color: #FFD700;
-}
-
-.ui-menu-color-download {
-    background-color: #000;
-}
-
-.ui-menu-color-github {
+.ui-menu-color-aboutme {
     background-color: #fff;
 }
 
+.ui-menu-color-contact {
+    background-color: #000;
+}
+
+.ui-menu-color-download {
+    background-color: #fff;
+}
+
+.ui-menu-color-github {
+    background-color: #012168;
+}
+
 .ui-menu-color-interests {
+    background-color: #fff;
+}
+
+.ui-menu-color-projects{
+    background-color: #ddc91e;
+}
+
+.ui-menu-color-portfolio {
+    background-color: #fff;
+}
+
+.ui-menu-color-media {
     background-color: #066816;
 }
 
-/* Change GitHub text color */
-.ui-menu-color-github span {
+.ui-menu-color-team {
+    background-color: #066816;
+}
+.ui-menu-color-services {
+    background-color: #fff;
+}
+
+.ui-menu-color-partnership {
+    background-color: #fff;
+}
+/* Change download text color */
+.ui-menu-color-download span {
+    font-weight: bold;
+    color: #012168; /* Replace with your desired color */
+}
+
+/* Change aboutme text color */
+.ui-menu-color-aboutme span {
     font-weight: bold;
     color: #b90808; /* Replace with your desired color */
 }
 
-/* Change GitHub icon color */
-.ui-menu-color-github a i {
+ 
+/* Change portfolio text color */
+.ui-menu-color-portfolio span {
+    font-weight: bold;
+    color: #65183f; /* Replace with your desired color */
+}
+/* Change interests text color */
+.ui-menu-color-interests span {
     font-weight: bold;
     color: #b90808; /* Replace with your desired color */
 }
+
+/* Change services text color */
+.ui-menu-color-services span {
+    font-weight: bold;
+    color: #066816; /* Replace with your desired color */
+}
+
+/* Change services icon color */
+.ui-menu-color-services i {
+    font-weight: bold;
+    color: #066816; /* Replace with your desired color */
+}
+
+/* Change partnership text color */
+.ui-menu-color-partnership span {
+    font-weight: bold;
+    color: #b90808; /* Replace with your desired color */
+}
+
+.fa-github {
+  font-size: 36px; /* or any size you like */
+}
+
+ 
 
 /* Style for the custom GitHub icon */
 
 /* <i class="fa fa-github" aria-hidden="true">*/
 
-.github-icon {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+.download-icon  {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
     vertical-align: middle; /* Align with text */
-    margin-top: 22px;
+    margin-top: 10px;
     margin-right: 5px; /* Add spacing between icon and text */
 }
+.contact-icon  {
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    vertical-align: middle; /* Align with text */
+    margin-top: 10px;
+    margin-right: 5px; /* Add spacing between icon and text */
+}
+.partnership-icon ,.services-icon,.media-icon , .portfolio-icon{
+    width: 45px; /* Adjust size as needed */
+    height: 45px; /* Adjust size as needed */
+    vertical-align: middle; /* Align with text */
+    margin-top: 10px;
+    margin-right: 5px; /* Add spacing between icon and text */
+}
+
+
+
 
 .slogan-icon{
 
@@ -660,5 +735,48 @@ button[type="submit"] {
   .project {
     flex: 1 1 100%;
   }
+} 
+
+
+/* ---------------------------------------- 3D Effect for All Navigation Buttons */
+.menuitem a {
+  display: inline-block;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.25); /* default dark shadow */
+  transition: all 0.2s ease;
+  background-color: inherit; /* keeps existing bg color */
+  transform: translateY(-10px);
 }
 
+/* Hover: lift effect */
+.menuitem a:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Active: pressed down */
+.menuitem a:active {
+  transform: translateY(2px);
+  box-shadow: 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* ---------------------------------------- Exceptions for dark backgrounds */
+.ui-menu-color-home a,
+.ui-menu-color-contact a,
+.ui-menu-color-github a {
+  /* detect dark background manually and use white shadow */
+  box-shadow: 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.ui-menu-color-home a:hover,
+.ui-menu-color-contact a:hover,
+.ui-menu-color-github a:hover {
+  box-shadow: 0 8px rgba(255, 255, 255, 0.45);
+}
+
+.ui-menu-color-home a:active,
+.ui-menu-color-contact a:active,
+.ui-menu-color-github a:active {
+  box-shadow: 0 3px rgba(255, 255, 255, 0.25);
+}
