@@ -852,3 +852,66 @@ footer .social-links i:hover {
   border-radius: 8px;
   border: 1px solid #444;
 }
+
+
+/* ---------------------------------------- Impressum Page */
+.impressum-body {
+    background-color: #fafafa;
+    color: #f0f0f0;
+    font-family: "Roboto", sans-serif;
+}
+
+.impressum-container {
+    max-width: 800px;
+    margin: 80px auto;
+    background: #1c1c1c;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+.impressum-title {
+    color: #f9d342;
+}
+
+.impressum-container h2 {
+    color: #f9d342;
+}
+
+.impressum-container a {
+    color: #03a9f4;
+}
+
+.impressum-container a:hover {
+    text-decoration: underline;
+}
+
+.impressum-divider {
+    border-color: #555;
+}
+
+.impressum-note {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #f9d342;
+    text-decoration: none;
+    border: 1px solid #f9d342;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.back-link:hover {
+    background: #f9d342;
+    color: #111;
+}
+
+.impressum-footer {
+    color: #999;
+    font-size: 0.9rem;
+}
