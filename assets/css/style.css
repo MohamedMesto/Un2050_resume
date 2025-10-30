@@ -817,3 +817,38 @@ button[type="submit"] {
   color: #333;
   font-size: 0.95rem;
 }
+
+
+footer {
+  background-color: #111;
+  color: #eee;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #ffc107;
+}
+
+footer .general-sub {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer .social-links i {
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+
+footer .social-links i:hover {
+  transform: scale(1.2);
+  color: #ffc107;
+}
+
+.rounded-border {
+  border-radius: 8px;
+  border: 1px solid #444;
+}
