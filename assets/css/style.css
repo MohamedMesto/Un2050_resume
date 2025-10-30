@@ -780,3 +780,40 @@ button[type="submit"] {
 .ui-menu-color-github a:active {
   box-shadow: 0 3px rgba(255, 255, 255, 0.25);
 }
+
+
+/* ------------------ CLIENT REVIEWS SECTION ------------------ */
+.reviews-section {
+  padding: 60px 15px;
+  background-color: #f8f9fa;
+}
+
+.review-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.client-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.client-name {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.client-feedback {
+  font-style: italic;
+  color: #333;
+  font-size: 0.95rem;
+}
