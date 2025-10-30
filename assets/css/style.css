@@ -956,7 +956,7 @@ footer .social-links i:hover {
 }
 
 .services-page h4 {
-    color: #f9d342;
+    color:   #dc3545;               /* #f9d342; yellow */ 
     font-weight: 600;
     margin-top: 15px;
 }
